@@ -8,7 +8,7 @@
 }
 
 .cabecalho {
-    background-color: var(--cor-header);
+    background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +38,7 @@
 .lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
-    background-color: var(--cor-header);
+    background-color: var(--branco);
 }
 
 .lista-menu__titulo {
