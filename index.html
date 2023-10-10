@@ -55,22 +55,24 @@
             <h2 class="carrossel__titulo">Novos lançamentos</h2>
             <!-- Slider main container -->
             <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="./src/img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da Alura Books"></div>
-                <div class="swiper-slide"><img src="./src/img/Liderança.svg" alt="Livro sobre liderança em design da Alura Books"></div>
-                <div class="swiper-slide"><img src="./src/img/Javascript.svg" alt="Livro sobre JavaScript assertivo da Alura Books"></div>
-                <div class="swiper-slide"><img src="./src/img/Guia Front-end.svg" alt="Livro Guia Front-End da Alura Books"></div>
-                <div class="swiper-slide"><img src="./src/img/Portugol.svg" alt="Livro sobre Portugol da Alura Books"></div>
-                <div class="swiper-slide"><img src="./src/img/Acessibilidade.svg" alt="Livro sobre Acessibilidade da Alura Books"></div>
-                </div>
+
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./src/img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da Alura Books"></div>
+                    <div class="swiper-slide"><img src="./src/img/Liderança.svg" alt="Livro sobre liderança em design da Alura Books"></div>
+                    <div class="swiper-slide"><img src="./src/img/Javascript.svg" alt="Livro sobre JavaScript assertivo da Alura Books"></div>
+                    <div class="swiper-slide"><img src="./src/img/Guia Front-end.svg" alt="Livro Guia Front-End da Alura Books"></div>
+                    <div class="swiper-slide"><img src="./src/img/Portugol.svg" alt="Livro sobre Portugol da Alura Books"></div>
+                    <div class="swiper-slide"><img src="./src/img/Acessibilidade.svg" alt="Livro sobre Acessibilidade da Alura Books"></div>
+                </div>
             
                 <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
             
                 <!-- If we need scrollbar -->
                 <div class="swiper-scrollbar"></div>
@@ -81,6 +83,11 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>const swiper = new Swiper('.swiper', {
         spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        }
       });
       </script>
 </body>
