@@ -66,3 +66,7 @@
     color: var(--branco);
     font-weight: 700;
 }
+
+.descricao__estrelinhas {
+    margin-bottom: .5em;
+}
