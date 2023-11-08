@@ -92,47 +92,49 @@
         <section class="carrossel">
             <h2 class="carrossel__titulo">Novos lançamentos</h2>
             <!-- Slider main container -->
-            <div class="swiper">
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide"><img src="./src/img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da Alura Books"></div>
-                    <div class="swiper-slide"><img src="./src/img/Liderança.svg" alt="Livro sobre liderança em design da Alura Books"></div>
-                    <div class="swiper-slide"><img src="./src/img/Javascript.svg" alt="Livro sobre JavaScript assertivo da Alura Books"></div>
-                    <div class="swiper-slide"><img src="./src/img/Guia Front-end.svg" alt="Livro Guia Front-End da Alura Books"></div>
-                    <div class="swiper-slide"><img src="./src/img/Portugol.svg" alt="Livro sobre Portugol da Alura Books"></div>
-                    <div class="swiper-slide"><img src="./src/img/Acessibilidade.svg" alt="Livro sobre Acessibilidade da Alura Books"></div>
-                </div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
-            </div>
-
-            <div class="card">
-                <!-- 1° linha -->
-                <div class="card__descricao">
-                    <!-- 1° colunua -->
-                    <div class="descricao">
-                        <h3 class="descricao__titulo">Talvez você se interesse por...</h3>
-                        <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-                        <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./src/img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da Alura Books"></div>
+                        <div class="swiper-slide"><img src="./src/img/Liderança.svg" alt="Livro sobre liderança em design da Alura Books"></div>
+                        <div class="swiper-slide"><img src="./src/img/Javascript.svg" alt="Livro sobre JavaScript assertivo da Alura Books"></div>
+                        <div class="swiper-slide"><img src="./src/img/Guia Front-end.svg" alt="Livro Guia Front-End da Alura Books"></div>
+                        <div class="swiper-slide"><img src="./src/img/Portugol.svg" alt="Livro sobre Portugol da Alura Books"></div>
+                        <div class="swiper-slide"><img src="./src/img/Acessibilidade.svg" alt="Livro sobre Acessibilidade da Alura Books"></div>
                     </div>
-                    <!-- 2° coluna -->
-                    <img src="./src/img/Angular.svg" class="card__descricao-imagem">
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
                 </div>
-                <!-- 2° linha -->
-                <div class="card__botoes">
-                    <!-- 1° coluna -->
-                    <ul class="botoes">
-                        <li class="botoes__item"><a href="#"><img src="./src/img/Favoritos.svg" alt="Favoritar livro"></a></li>
-                        <li class="botoes__item"><a href="#"><img src="/src/img/Compras.svg" alt="Adicionar ao carrinho de compras"></a></li>
-                    </ul>
-                    <!-- 2° coluna -->
-                    <a href="#" class="botoes__ancora">Saiba mais</a>
+
+                <div class="card">
+                    <!-- 1° linha -->
+                    <div class="card__descricao">
+                        <!-- 1° colunua -->
+                        <div class="descricao">
+                            <h3 class="descricao__titulo">Talvez você se interesse por...</h3>
+                            <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                            <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                        </div>
+                        <!-- 2° coluna -->
+                        <img src="./src/img/Angular.svg" class="card__descricao-imagem">
+                    </div>
+                    <!-- 2° linha -->
+                    <div class="card__botoes">
+                        <!-- 1° coluna -->
+                        <ul class="botoes">
+                            <li class="botoes__item"><a href="#"><img src="./src/img/Favoritos.svg" alt="Favoritar livro"></a></li>
+                            <li class="botoes__item"><a href="#"><img src="/src/img/Compras.svg" alt="Adicionar ao carrinho de compras"></a></li>
+                        </ul>
+                        <!-- 2° coluna -->
+                        <a href="#" class="botoes__ancora">Saiba mais</a>
+                    </div>
                 </div>
             </div>
         </section>
